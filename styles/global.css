@@ -1,0 +1,85 @@
+@import url(http://fonts.googleapis.com/css?family=Tangerine|Faster+One|Sintony);
+
+body {
+	background-color: #a7aaf1;
+	color: #000;
+	margin: 0px 100px auto;
+	font-size: 12px;
+	font-family: arial, helvetica, sans-serif;
+}
+div{
+	width:655px;
+	height:1em;
+	margin: 10px auto;
+	position: relative;
+}
+/*Drop down menu*/
+dl, dt, dd{
+	margin:0;
+	padding:0;
+	border-style: outset;
+}
+dl{
+	position:absolute;
+}
+dt{
+	width:100px;
+	border:#060;;
+	text-align: center;
+	background-color: #626bf4;
+}
+dd{
+	display:none;
+	width:94px
+}
+dl:hover dd{
+	display:block;
+	
+	}
+a{
+	display:block;
+	background-color:#626bf4;
+	color:#000;
+}
+a:hover{
+	background-color:#fb0;
+}
+dt a{
+	padding-left:10px;
+}
+dd a{
+	border:1px solid #555;
+	padding:4px 8px;
+}
+p{
+	font-weight: normal;
+	font-size: 13px;
+}
+footer {
+	background-color: #000;
+	color: rgba(255,255,255,.75);
+	padding: 5px 500px 5px auto;
+	margin: 0 -200px auto;
+	bottom:0px;
+	text-align: center;
+}
+header {
+	text-align: center;
+	margin: 0 auto;
+}
+div#nav {
+	margin: 0 auto;
+	font-size: 14px;
+	display: block;
+}
+	h1, h2{
+	text-align: center;
+	margin: 30px auto;
+}
+ h1, h2 {
+	font-family: 'Tangerine', cursive;
+	font-size: 25px;
+	}
+ p {
+	font-family: 'Sintony', sans-serif;
+}
